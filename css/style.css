@@ -620,8 +620,6 @@
   position: relative;
   /* padding */
   padding: 100px 0;
-  /* background */
-  background-color: var(--color-mint);
 }
 
 .contact-center-line {
