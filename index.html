@@ -27,7 +27,7 @@
       <ul class="navbar-list">
         <li class="navbar-items"><a href="#">Work</a></li>
         <li class="navbar-items"><a href="#">Portfolio</a></li>
-        <li class="navbar-items"><a href="#">Contact</a></li>
+        <li class="navbar-items"><a href="./pages/contact.html">Contact</a></li>
         <li class="highlight"><a href="http://www.mdh.kr">Shop</a></li>
       </ul>
       <div class="navbar-toggle">
@@ -37,13 +37,13 @@
       </div>
     </nav>
     <!-- Language -->
-    <div class="lang">
+    <aside class="lang">
       <ul>
         <li class="now"><a href="#">KO</a></li>
         <li><a href="#">JP</a></li>
         <li><a href="#">ENG</a></li>
       </ul>
-    </div>
+    </aside>
     <!-- main -->
     <main id="main">
       <section id="home">
@@ -52,6 +52,7 @@
         </header>
         <div class="home-img"></div>
       </section>
+      <!-- Preview -->
       <section id="preview">
         <header class="preview-header">
           <h1 class="preview-title">
@@ -113,6 +114,7 @@
           </section>
         </div>
       </section>
+      <!-- Service -->
       <section id="service">
         <div class="service-wrap">
           <header class="service-header">
@@ -161,6 +163,7 @@
           </article>
         </div>
       </section>
+      <!-- About -->
       <section id="about">
         <div class="center-line"></div>
         <div class="about-wrap">
@@ -221,27 +224,51 @@
               <section class="link-left link-items">
                 <header class="link-items-header"><h3>Shop Mall</h3></header>
                 <ul class="link-list">
-                  <li><button class="link-btn">Urban Haru</button></li>
-                  <li><button class="link-btn">Miya design Mall</button></li>
+                  <li>
+                    <button
+                      onclick="location.href='https://smartstore.naver.com/miyadesign';"
+                      class="link-btn"
+                    >
+                      Urban Haru
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onclick="location.href='https://www.mdh.kr';"
+                      class="link-btn"
+                    >
+                      Miya design Mall
+                    </button>
+                  </li>
                 </ul>
               </section>
               <section class="link-right link-items">
                 <header class="link-items-header"><h3>Brand</h3></header>
                 <ul class="link-list">
                   <li><button class="link-btn">Webffle official</button></li>
-                  <li><button class="link-btn">Webffle webAgency</button></li>
+                  <li>
+                    <button
+                      onclick="location.href='http://www.webffle.com';"
+                      class="link-btn"
+                    >
+                      Webffle Web agency
+                    </button>
+                  </li>
                 </ul>
               </section>
             </div>
           </article>
         </div>
       </section>
-      <section id="contact">
-        <div class="contact-center-line"></div>
-        <div class="contact-wrap">
-          <h1>Let’s Work Together</h1>
-          <p>미야디자인하우스는 고객님의 연락을 늘 기다리고 있습니다.</p>
-        </div>
+      <!-- Certification -->
+      <section id="certifi">
+        <figure class="certifi-img-wrap">
+          <img
+            src="./images/main/certification/kidp.png"
+            alt="한국디자인진흥원"
+          />
+          <p>한국디자인진흥원<br />시각디자인 전문회사 등록기업</p>
+        </figure>
       </section>
     </main>
     <footer id="footer">
@@ -495,7 +522,7 @@
               </g>
             </svg>
           </span>
-          <a href="#" class="contact-btn">Contact Us</a>
+          <a href="./pages/contact.html" class="contact-btn">Contact Us</a>
         </div>
       </section>
       <section class="footer-bottoms">
