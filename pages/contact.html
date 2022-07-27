@@ -36,6 +36,15 @@
         <span class="toggle bottom"></span>
       </div>
     </nav>
+    <!-- Language -->
+    <aside class="lang">
+      <ul>
+        <li class="now"><a href="#">KO</a></li>
+        <li><a href="#">JP</a></li>
+        <li><a href="#">ENG</a></li>
+      </ul>
+    </aside>
+
     <main id="main">
       <header class="contact-header">
         <h1 class="contact-title">:Contact Us</h1>
@@ -79,14 +88,7 @@
         </div>
       </section>
     </main>
-    <!-- Language -->
-    <aside class="lang">
-      <ul>
-        <li class="now"><a href="#">KO</a></li>
-        <li><a href="#">JP</a></li>
-        <li><a href="#">ENG</a></li>
-      </ul>
-    </aside>
+
     <!-- footer -->
     <footer id="footer">
       <section class="footer-headline">
@@ -366,27 +368,27 @@
     <!-- JS TYPE IT -->
     <script src="https://unpkg.com/typeit@8.5.4/dist/index.umd.js"></script>
     <script>
-      new TypeIt('#home-title-type', {
+      new TypeIt("#home-title-type", {
         speed: 80,
         loop: false,
       })
         .type(
-          '클라이언트가 원하는 목표를 성공적으로 이끄는 동반자가 되고자하며,',
+          "클라이언트가 원하는 목표를 성공적으로 이끄는 동반자가 되고자하며,",
           { delay: 500 }
         )
         .move(-8, { delay: 300 })
         .delete(3, { pause: 200 })
-        .type('파트너', { pause: 300 })
+        .type("파트너", { pause: 300 })
         .move(8, { delay: 200 })
         .type(
-          '<br/> 클라이언트와 함께한 경험들은 미야디자인하우스의 소중한 자산이 될 것입니다.'
+          "<br/> 클라이언트와 함께한 경험들은 미야디자인하우스의 소중한 자산이 될 것입니다."
         )
         .go();
     </script>
     <!-- RELLAX -->
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script>
-      var rellax = new Rellax('.rellax', { center: true });
+      var rellax = new Rellax(".rellax", { center: true });
     </script>
     <!-- js -->
     <script src="../js/nav.js"></script>
@@ -397,7 +399,7 @@
         var w = window;
         if (w.ChannelIO) {
           return (window.console.error || window.console.log || function () {})(
-            'ChannelIO script included twice.'
+            "ChannelIO script included twice."
           );
         }
         var ch = function () {
@@ -413,25 +415,25 @@
             return;
           }
           w.ChannelIOInitialized = true;
-          var s = document.createElement('script');
-          s.type = 'text/javascript';
+          var s = document.createElement("script");
+          s.type = "text/javascript";
           s.async = true;
-          s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
-          s.charset = 'UTF-8';
-          var x = document.getElementsByTagName('script')[0];
+          s.src = "https://cdn.channel.io/plugin/ch-plugin-web.js";
+          s.charset = "UTF-8";
+          var x = document.getElementsByTagName("script")[0];
           x.parentNode.insertBefore(s, x);
         }
-        if (document.readyState === 'complete') {
+        if (document.readyState === "complete") {
           l();
         } else if (window.attachEvent) {
-          window.attachEvent('onload', l);
+          window.attachEvent("onload", l);
         } else {
-          window.addEventListener('DOMContentLoaded', l, false);
-          window.addEventListener('load', l, false);
+          window.addEventListener("DOMContentLoaded", l, false);
+          window.addEventListener("load", l, false);
         }
       })();
-      ChannelIO('boot', {
-        pluginKey: '713ebabf-b4d1-4ed1-8e77-eee411dfd7db',
+      ChannelIO("boot", {
+        pluginKey: "713ebabf-b4d1-4ed1-8e77-eee411dfd7db",
       });
     </script>
     <!-- End Channel Plugin -->
