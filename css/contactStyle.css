@@ -1,6 +1,4 @@
-body {
-  background-color: var(--color-dark-grey);
-}
+
 #main {
   /* max-size */
   max-width: 1200px;
@@ -14,17 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.contact-header {
-  /* padding */
-  padding-bottom: 70px;
-}
 
-.contact-title {
-  /* font */
-  font-family: var(--font-eng);
-  font-size: 3.5rem;
-  color: var(--color-mint);
-}
 .contact-wrap {
   /* flex */
   display: flex;
@@ -40,6 +28,7 @@ body {
   /* padding */
   padding: 50px 0;
   border-radius: 20px 0 0 20px;
+  border: 1px solid var(--color-dark-mint);
   /* background */
   background-color: var(--color-white);
   /* flex */

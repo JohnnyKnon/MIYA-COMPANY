@@ -72,6 +72,19 @@ ol {
   list-style: none;
 }
 
+/* sub Header */
+.subpage-header {
+  /* padding */
+  padding-bottom: 70px;
+}
+
+.subpage-title {
+  /* font */
+  font-family: var(--font-eng);
+  font-size: 3.5rem;
+  color: var(--color-mint);
+}
+
 /* Nav */
 
 /* Toggle none */
